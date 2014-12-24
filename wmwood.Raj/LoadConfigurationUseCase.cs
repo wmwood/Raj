@@ -7,10 +7,10 @@ namespace wmwood.Raj
     {
         public Configuration Load(string configurationFilePath)
         {
-            var fileContents = File.ReadAllText(configurationFilePath);
+            //var fileContents = File.ReadAllText(configurationFilePath);
 
-            if(string.IsNullOrWhiteSpace(fileContents))
-                throw new InvalidOperationException("Configuration file is empty.");
+            //if(string.IsNullOrWhiteSpace(fileContents))
+            //    throw new InvalidOperationException("Configuration file is empty.");
 
             return new Configuration(null, null);
         }
